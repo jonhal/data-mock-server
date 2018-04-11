@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]()   [![NPM version](https://badge.fury.io/js/data-mock-server.svg)](https://npmjs.org/package/data-mock-server) 
 
-# data-mock-server  - 接口模拟处理平台
+# data-mock-server  - 接口模拟服务平台
 
 配合 [data-mock-send](https://github.com/jonhal/data-mock-send) 使用效果更佳
 
