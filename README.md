@@ -21,19 +21,18 @@
 npm run start
 ```
 5. 配置mock数据，服务器地址后面需要加initdataformock，标识新增数据。使用postman等其他也可以
-  ```javascript
+
   curl -XPOST -H "Content-type: application/json" -d '{
   "name": "lujunhao",
   "age": 11
 }' 'http://127.0.0.1:3000/e0ec6057dafaaadd0ca9fa87a73d5e64ba881891e7e3d2af3a7f1ae228e5410j/initdataformock/aa/bb' 
-```
+
 6. 获取mock数据，根据配置的url，会返回数据，支持get和post请求
-  ```javascript
   curl -XPOST -H "Content-type: application/json" -d '{
   "name": "lujunhao",
   "age": 11
 }' 'http://127.0.0.1:3000/e0ec6057dafaaadd0ca9fa87a73d5e64ba881891e7e3d2af3a7f1ae228e5410j/aa/bb' 
-```
+
 ### config文件配置
  1. serverPort -- 服务端口号 【默认即可】
  2. dataBaseUrl -- mongodb的服务器地址【默认即可】 
