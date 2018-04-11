@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]() [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/data-mock-server)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]()   [![NPM version](https://badge.fury.io/js/data-mock-server.svg)](https://npmjs.org/package/data-mock-server) 
 
 # data-mock-server  - 接口模拟处理平台
 
