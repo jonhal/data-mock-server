@@ -2,6 +2,8 @@
 
 # data-mock-server  - 接口模拟处理平台
 
+配合 [data-mock-send](https://github.com/jonhal/data-mock-send) 使用效果更佳
+
 ## 功能特性
 
 #### 强大功能
