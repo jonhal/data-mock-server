@@ -28,6 +28,7 @@ npm run start
 }' 'http://127.0.0.1:3000/e0ec6057dafaaadd0ca9fa87a73d5e64ba881891e7e3d2af3a7f1ae228e5410j/initdataformock/aa/bb' 
 
 6. 获取mock数据，根据配置的url，会返回数据，支持get和post请求
+
   curl -XPOST -H "Content-type: application/json" -d '{
   "name": "lujunhao",
   "age": 11
