@@ -38,3 +38,8 @@ npm run start
  1. serverPort -- 服务端口号 【默认即可】
  2. dataBaseUrl -- mongodb的服务器地址【默认即可】 
  3. dataBaseName -- mock数据库名称 【默认即可】
+ 
+### 我们还想做的
+ 1. 提供云服务端的数据模拟，不需要配置直接请求线上服务器
+ 2. 接口文档转换，根据文档格式自动配置mockmock数据
+ 3. 欢迎issue 或者发邮件simotophs@gmail.com
