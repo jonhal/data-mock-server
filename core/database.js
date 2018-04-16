@@ -17,8 +17,10 @@ module.exports = {
                     err();
                     throw err
                 }else {
-                    success(result);
-                    console.log(result);
+                    // if (result[0].value.result) {
+                        success(result[0].value)
+                    // }
+                    console.log(result[0].value);
                 }
                 db.close();
             });

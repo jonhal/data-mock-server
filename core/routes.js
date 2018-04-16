@@ -22,7 +22,7 @@ router.get('/get-link', (req, res) => {
 
 router.get(/^\/[0-9a-z]{64}/, (req, res) =>
     database
-        .get(req.path, result => res.status(200).send({ result, ok: true })),
+        .get(req.path, result => res.status(200).send(result)),
         () => res.status(500).send({ ok: false })   
 );
 
@@ -34,7 +34,7 @@ router.post(/^\/[0-9a-z]{64}\/initdataformock/, checkContentType, (req, res) =>
 
 router.post(/^\/[0-9a-z]{64}\/(?!initdataformock)/, checkContentType, (req, res) =>
     database
-    .get(req.path, result => res.status(200).send({ result, ok: true })),
+    .get(req.path, result => res.status(200).send({ result, ok: true, aa:1 })),
     () => res.status(500).send({ ok: false })   
 )
 
