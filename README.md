@@ -38,6 +38,8 @@ npm run start
   "age": 11
 }' 'http://127.0.0.1:3000/e0ec6057dafaaadd0ca9fa87a73d5e64ba881891e7e3d2af3a7f1ae228e5410j/aa/bb' 
 
+7. 服务启动之后可参考demo https://github.com/jonhal/data-mock-demo
+
 ### config文件配置
  1. serverPort -- 服务端口号 【默认即可】
  2. dataBaseUrl -- mongodb的服务器地址【默认即可】 
