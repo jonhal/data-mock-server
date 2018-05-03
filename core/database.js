@@ -16,7 +16,11 @@ module.exports = {
                 if (err) {
                     err();
                     throw err
-                }else {
+                } else {
+                    console.log(result.length)
+                    if (!result.length) {
+                        return false;
+                    }
                     // if (result[0].value.result) {
                         success(result[0].value)
                     // }

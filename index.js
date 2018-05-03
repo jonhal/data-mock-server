@@ -7,6 +7,9 @@ const cors = require('cors');
 const port = require('./config').serverPort;
 const app = express();
 
+process.on('uncaughtException', function(err) {
+    console.error('Error caught in uncaughtException event:', err);
+});
 
 app.use(bodyParser.json({
   strict: false,

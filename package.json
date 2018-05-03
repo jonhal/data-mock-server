@@ -1,6 +1,6 @@
 {
   "name": "data-mock-server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "mock data server",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,8 @@
     "nodemon": "^1.17.3",
     "npm-run-all": "^4.1.2",
     "webpack": "^3.8.1",
-    "webpack-node-externals": "^1.2.0"
+    "webpack-node-externals": "^1.2.0",
+    "data-mock-server": "1.0.5"
   },
   "dependencies": {
     "cors": "^2.8.4",
